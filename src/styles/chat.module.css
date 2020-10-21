@@ -1,0 +1,42 @@
+
+.chatContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.chatRoom {
+    border: solid black 2px;
+    width: 30vw;
+    height: 80vh;
+    background-color: lightblue;
+    overflow: scroll;
+    position: relative;
+}
+
+.curentUserChatHeader {
+    position: sticky;
+}
+
+.h1 {
+    text-align: center;
+    background-color: lightgrey;
+}
+
+.sentMessage {
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+    color: black;
+}
+
+.receivedMessage {
+    display: flex;
+    justify-content: flex-start;
+    background-color: lightgreen;
+    color: black;
+}
+
+.messageSendingFormContainer {
+    display: flex;
+    align-items: baseline;
+}
